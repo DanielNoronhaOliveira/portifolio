@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    background: black
+}
+
+body {
+    background: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.mim,
+.projetos,
+.contatos {
+    margin: 20px 100px 0 60px;
+    padding-left: 1px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.mim:hover {
+    color: chartreuse;
+}
+
+.projetos:hover {
+    color: chartreuse;
+}
+
+.contatos:hover {
+    color: chartreuse;
+}
+
+.portifolio {
+    color: white;
+    align-items: left;
+    font-size: 40px;
+
+}
+
+.portifolio span {
+    color: chartreuse;
+
+
+}
+
+.linguagem {
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    border-radius: 100%;
+}
+
+.nome {
+    color: white;
+}
+
+.eu {
+    margin: 150px 0 0 290px;
+    font-size: 20px;
+}
+
+.nome span {
+    color: chartreuse;
+}
+
+.funcao {
+    color: white;
+
+}
+
+section {
+    background-color: rgb(22, 22, 22);
+    margin-top: 150px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.daniel {
+    width: 190px;
+    border-radius: 100%;
+    border: 2px solid chartreuse;
+}
+.linkedin{
+    width: 25px;
+    border-radius: 100%;
+}
+.whatsap{
+    width: 25px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.github{
+    width: 25px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.sobre-mim,
+p {
+    color: white;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.sobre-mim {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.meu-nome {
+    color: chartreuse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sobre {
+    color: chartreuse;
+    margin-left: 45px;
+}
+
+.botao-pagina {
+    background: chartreuse;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 40px;
+
+}
+.botao-projetos{
+    background: chartreuse;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 530px;
+    left: 570px;
+}
+.botao-contatos{
+    background: chartreuse;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 530px;
+    left: 570px;
+}
+
+.voltar1 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.voltar1:hover {
+    opacity: 0.8;
+}
+
+
+.clique{
+    color: chartreuse;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.principal {
+    width: 800px;
+    border: 2px solid chartreuse;
+    position: absolute;
+    top: 190px;
+    left: 290px;
+}
+
+.conversor {
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-size: 30px;
+
+}
+.conversor:hover{
+    opacity: 0.6;
+}
+
+.calculadora {
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-size: 30px;
+
+}
+.calculadora:hover{
+    opacity: 0.6;
+}
+
+.cronometro {
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-size: 30px;
+
+}
+.cronometro:hover{
+    opacity: 0.6;
+}
+
+.jokenpo {
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-size: 30px;
+
+}
+.jokenpo:hover{
+    opacity: 0.6;
+}
+.meus-contatos{
+    color: chartreuse;
+    text-align: center;
+}
+.p-linkedin, .p-whatsap, .p-github, .p-instagram, .p-email{
+    color:white;
+    font-size: 30px;
+}
+.img-linkedin{
+    width: 40px;
+    border-radius: 100%;
+}
+.div-contatos{
+    margin-top: 45px;
+}
