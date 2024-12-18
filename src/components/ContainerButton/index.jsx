@@ -5,7 +5,7 @@ export function ContainerButton(){
     const navigate = useNavigate()
     return(
         <Container>
-            <button onClick={() => navigate("/")}>Voltar para a tela principal</button>
+            <button onClick={() => navigate("/home")}>Voltar para a tela principal</button>
         </Container>
     )
 }
