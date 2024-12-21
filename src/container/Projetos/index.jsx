@@ -36,7 +36,7 @@ export function Projetos(){
                </Conversor>
                <Calculadora>
                 <h2>Calculadora</h2>
-                <p>Esse código é uma calculadora simples implementada em HTML, CSS e JavaScript que utiliza uma interface com botões para permitir que o usuário insira números e operadores matemáticos. O HTML define a estrutura da página com um título, um campo de exibição de resultados e botões dispostos em uma tabela representando os números e as operações matemáticas. A interface possui botões para limpar tudo, apagar o último caractere, inserir números e operadores, e calcular o resultado.</p>
+                <p>Esse código é uma calculadora simples implementada em HTML, CSS e JavaScript que utiliza uma interface com botões para permitir que o usuário insira números e operadores matemáticos. O HTML define a estrutura da página com um título, um campo de exibição de resultados e botões dispostos em uma tabela representando os números e as operações matemáticas. A interface possui botões para limpar tudo, apagar o último caractere, inserir números e operadores, e calcular os resultado.</p>
                 <a href=" https://danielnoronhaoliveira.github.io/calculadora/" target="blank">Clique aqui para ver o projeto</a>
                </Calculadora>
                <ContainerButton/>
