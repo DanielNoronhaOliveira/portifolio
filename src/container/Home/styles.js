@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
  background-color: #000000;
  min-height: 100vh;
- overflow: hidden;
+ overflow: auto;
 `
 
 export const Content = styled.div`
@@ -14,7 +14,7 @@ export const Content = styled.div`
  flex-wrap: wrap;
 align-items: center;
  
- overflow: hidden;
+ overflow: auto;
  
  h1{
     color:#228B22;

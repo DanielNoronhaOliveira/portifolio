@@ -12,11 +12,11 @@ export const Container = styled.div`
 export const Content = styled.div`
   background-color: #000000;
   height: 100vh;
-  margin: 10px;
+  margin: 20px;
   display: grid;
   grid-template-columns:  repeat(3, 1fr);
   gap: 10px;
-  //overflow: hidden;
+  overflow: auto;
   
   @media(max-width:740px) {
     display: flex;
@@ -26,37 +26,46 @@ export const Content = styled.div`
 `
 export const Cronometro = styled.div`
 background-color: #228B22;
-width: 350px;
-height: 320px;
-padding: 15px;
-
+max-width: 250px;
+max-height: 250px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
 
 h2{
     color: #ffffff;  
+    text-align: center;
 }
- p{
-    color: #ffffff;
-    
- }
+ 
 
  a{
     text-decoration: none;
     font-size:20px;
-    color:#0000FF;
+    display: flex;
+    justify-content: center;
+    color:#0000FF
  }
 
  @media(max-width:740px) {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
  }
 `
 
 export const DevBurguer = styled.div`
  background-color: #228B22;
-width: 350px;
-height: 320px;
-padding: 15px;
-
+max-width: 250px;
+max-height: 220px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
 
 h2{
     color: #ffffff;  
@@ -73,15 +82,22 @@ h2{
  }
 
  @media(max-width:740px) {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
  }
 `
 export const DevMovies = styled.div`
  background-color: #228B22;
-width: 350px;
-height: 320px;
-padding: 15px;
+max-width: 250px;
+max-height: 220px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
 
 
 h2{
@@ -99,16 +115,22 @@ h2{
  }
 
  @media(max-width:740px) {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
  }
 `
 export const Jokenpo = styled.div`
  background-color: #228B22;
-width: 350px;
-height: 320px;
-padding: 15px;
-
+max-width: 250px;
+max-height: 220px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
 
 h2{
     color: #ffffff;  
@@ -125,15 +147,22 @@ h2{
  }
 
  @media(max-width:740px) {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
  }
 `
 export const Conversor = styled.div`
  background-color: #228B22;
-width: 350px;
-height: 320px;
-padding: 15px;
+max-width: 250px;
+max-height: 220px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
 
 
 h2{
@@ -151,16 +180,22 @@ h2{
  }
 
  @media(max-width:740px) {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
  }
 `
 export const Calculadora = styled.div`
  background-color: #228B22;
-width: 350px;
-height: 320px;
-padding: 15px;
-
+width: 250px;
+height: 220px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
 
 h2{
     color: #ffffff;  
@@ -177,8 +212,11 @@ h2{
  }
 
  @media(max-width:740px) {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
  }
 `
 
