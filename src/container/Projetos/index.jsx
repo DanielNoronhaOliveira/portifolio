@@ -1,5 +1,5 @@
 import { ContainerButton } from "../../components";
-import { Container, Content, Cronometro, DevBurguer, DevMovies, Jokenpo, Conversor, Calculadora } from "./styles";
+import { Container, Content, Cronometro, DevBurguer, DevMovies, Jokenpo, Conversor, Calculadora, ListaTarefa } from "./styles";
 
 import AlarmIcon from '@mui/icons-material/Alarm';
 import FastfoodIcon from '@mui/icons-material/Fastfood';
@@ -7,7 +7,7 @@ import MovieIcon from '@mui/icons-material/Movie';
 import ContentCutIcon from '@mui/icons-material/ContentCut';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import CalculateIcon from '@mui/icons-material/Calculate';
-
+import ListAltIcon from '@mui/icons-material/ListAlt';
 export function Projetos() {
   return (
 
@@ -45,9 +45,14 @@ export function Projetos() {
          <CalculateIcon  style={{fontSize: 90, color:'#ffffff'}}/>
           <a href=" https://danielnoronhaoliveira.github.io/calculadora/" target="blank"> ver o projeto</a>
         </Calculadora>
-        <ContainerButton />
+        <ListaTarefa>
+          <h2>Lista de tarefas</h2>
+         <ListAltIcon style={{fontSize: 90, color:'#ffffff'}}/>
+          <a href=" https://danielnoronhaoliveira.github.io/lista-de-tarefa/" target="blank">ver o projeto</a>
+        </ListaTarefa>
+       
       </Content>
-
+      <ContainerButton />
     </Container>
 
 

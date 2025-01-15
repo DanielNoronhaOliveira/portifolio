@@ -221,3 +221,37 @@ h2{
 `
 
 
+export const ListaTarefa = styled.div`
+ background-color: #228B22;
+width: 250px;
+height: 220px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: center;
+
+h2{
+    color: #ffffff;  
+}
+ p{
+    color: #ffffff;
+    
+ }
+
+ a{
+    text-decoration: none;
+    font-size:20px;
+    color:#0000FF;
+ }
+
+ @media(max-width:740px) {
+    width: 200px;
+    height: 300px;
+    a{
+      font-size: 15px;
+    }
+ }
+`
+
+
